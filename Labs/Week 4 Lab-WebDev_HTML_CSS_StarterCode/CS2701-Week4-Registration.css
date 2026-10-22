@@ -86,6 +86,10 @@ section {
     */
     border: 3px solid green;
     padding: 10px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin: center;
   }
 
 /* Styling for text inputs in the form*/
@@ -94,6 +98,16 @@ section {
     width: auto;
     text-align: left;
 }
+
+    nav{
+        color: white;
+        background-color: #333;
+        border-bottom: 1px white;
+        border-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+    }
 
 /*Styling with a media query*/
 @media screen and (max-width: 700px) {
